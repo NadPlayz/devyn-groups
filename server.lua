@@ -249,7 +249,7 @@ function FindGroupByMember(src)
     else
         return 0
     end
-end
+end exports("FindGroupByMember", FindGroupByMember)
 
 function ChangeGroupLeader(groupID)
     local m = getGroupMembers(groupID)
